@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +18,7 @@ namespace sip
 			double size;
 			for (; ; )
 			{
+				remainingTime = 0;
 				Console.WriteLine("Witam w symulacji prof. Krupy");
 				Console.Write("Proszę podać ilość czasu: ");
 				bool result1 = double.TryParse(Console.ReadLine(), out time);
